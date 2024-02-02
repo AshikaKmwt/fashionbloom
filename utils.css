@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@600;800&display=swap');
+
+header {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    max-width: 100vw;
+    padding: 0 32px;
+    /* background-color: brown; */
+    /* margin: auto; */
+}
+
+.item-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-bw {
+    justify-content: space-between;
+}
+
+.mx-2 {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.mx-4 {
+    margin-left: 24px;
+    margin-right: 24px;
+}

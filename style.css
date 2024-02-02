@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 8vh;
+    font-family: 'Assistant', sans-serif;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 12px;
+    font-size: 0.9rem;
+    /* font-weight:700; */
+
+}
+
+.right {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+
+main {
+    background-color: rgb(252, 252, 252);
+    /* height: 122vh; */
+
+}
+
+
+/* .section1 {
+    padding: 12px 0;
+
+} */
+
+.section1 img ,.section3 img , .section4 img ,.section6 img ,.section7 img ,.section8 img{
+    max-width: 98vw;
+    /* padding: 8px 0; */
+
+}
+
+
+
+input {
+    width: 28vw;
+    border: none;
+    margin: 0 12px;
+    padding: 12px 4px;
+    background-color: rgba(245, 245, 245, 0.973);
+}
